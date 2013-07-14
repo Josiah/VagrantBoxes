@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="en"><head><title>index</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content=""><meta name="groc-document-path" content="index"><meta name="groc-project-path" content="README.md"><link rel="stylesheet" type="text/css" media="all" href="assets/style.css"><script type="text/javascript" src="assets/behavior.js"></script><body><div id="meta"><div class="file-path">README.md</div></div><div id="document"><div class="segment"><div class="comments"><div class="wrapper"><h1 id="vagrant-boxes">Vagrant Boxes</h1>
+
+<p>This repository documents the setup proceedures the for the following downloadable Vagrant boxes:</p>
+
+<h4 id="ubuntu-server-1304-raring-ringtail">Ubuntu Server 13.04 “Raring Ringtail”</h4>
+
+<p>This box is configured according to the suggested base box configuration and includes Chef and Puppet. If you're curious as to how it was configured, check out the <a href="http://josiah.github.io/VagrantBoxes/ubuntu-server-raring64.html" title="Ubuntu Server 13.04 “Raring Ringtail” setup instructions">setup instructions</a> or take a look at the <a href="https://github.com/Josiah/VagrantBoxes/blob/master/ubuntu-server-raring64.sh" title="Ubuntu Server 13.04 “Raring Ringtail” shell script">shell script</a> used to create it.</p>
+
+<p>Use this box in your vagrant configuration like so:</p>
+
+<pre><code>config.vm.box = "ubuntu-server-raring64"
+config.vm.box_url = "https://copy.com/3afno2vdMXWr/ubuntu-server-raring64.box?download=1"
+</code></pre>
+
+<h2 id="why">Why?</h2>
+
+<p>There are services which provide created boxes (such as <a href="http://vagrantbox.es">vagrantbox.es</a>)
+and there are tools to generate them from scripts (such as <a href="https://github.com/jedi4ever/veewee">veewee</a>). The
+former aren't doesn't have any boxes which match my needs and I couldn't make
+the latter install thanks to ruby dependency hell.</p>
+
+<p>After trying with both to generate a working base box for Ubuntu Server 13.04
+I gave up and did it manually. Rather than forgetting how I did it and having
+to learn it again when I have to do it again I decided to document the
+process. Taking it a step further, I documented the process as a shell script
+so that I had less work to do next time.</p></div></div></div></div></body></html>
