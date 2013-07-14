@@ -191,4 +191,5 @@ reboot
 # [1]: http://briceno.mx/2012/10/easy-guide-to-create-a-vagrant-box-from-virtualbox/
 
 # **[Adrien Brault](https://gist.github.com/adrienbrault)**
-# > [`purge.sh`](https://gist.github.com/adrienbrault/3775253) - a gist for 
+# > [`purge.sh`](https://gist.github.com/adrienbrault/3775253) - a gist with
+# > commands to reduce the size of a vagrant box
