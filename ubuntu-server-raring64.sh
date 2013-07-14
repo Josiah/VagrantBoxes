@@ -3,6 +3,18 @@
 # Ubuntu Server 13.04
 # ===================
 
+# Download
+# --------
+
+# The result of this box is [publicly available][1] so you can add it to your
+# vagrant configuration like so:
+# [1]: https://copy.com/ihzTonCKxAiH "Ubuntu Server 13.04 “Raring Ringtail”"
+
+# ```
+# config.vm.box = "ubuntu-server-raring64"
+# config.vm.box_url = "https://copy.com/ihzTonCKxAiH/ubuntu-server-raring64.box"
+# ```
+
 # Prerequisites
 # -------------
 

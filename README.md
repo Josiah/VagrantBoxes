@@ -7,15 +7,17 @@ This repository documents the setup proceedures the for the following downloadab
 
 This box is configured according to the suggested base box configuration and includes Chef and Puppet. If you're curious as to how it was configured, check out the [setup instructions][raring64setup] or take a look at the [shell script][raring64sh] used to create it.
 
- [raring64sh]: https://github.com/Josiah/VagrantBoxes/blob/master/ubuntu-server-raring64.sh "Ubuntu Server 13.04 “Raring Ringtail” shell script"
- [raring64setup]: http://josiah.github.io/VagrantBoxes/ubuntu-server-raring64.html "Ubuntu Server 13.04 “Raring Ringtail” setup instructions"
-
-Use this box in your vagrant configuration like so:
+Use the configuration below in your `Vagrantfile` or [download the base box][raring64box]
+directly.
 
 ```
 config.vm.box = "ubuntu-server-raring64"
-config.vm.box_url = "https://copy.com/3afno2vdMXWr/ubuntu-server-raring64.box?download=1"
+config.vm.box_url = "https://copy.com/ihzTonCKxAiH/ubuntu-server-raring64.box"
 ```
+
+[raring64sh]: https://github.com/Josiah/VagrantBoxes/blob/master/ubuntu-server-raring64.sh "Ubuntu Server 13.04 “Raring Ringtail” shell script"
+[raring64setup]: http://josiah.github.io/VagrantBoxes/ubuntu-server-raring64.html "Ubuntu Server 13.04 “Raring Ringtail” setup instructions"
+[raring64box]: https://copy.com/ihzTonCKxAiH "Ubuntu Server 13.04 “Raring Ringtail” base box download"
 
 Why?
 ----
